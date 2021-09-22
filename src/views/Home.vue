@@ -134,9 +134,9 @@ export default {
         newData = this.data.map((item) => item);
       }
       // 去重
-      // newData = newData.filter((item, index, arr) => {
-      //   return arr.indexOf(item) === index
-      // })
+      newData = newData.filter((item, index, arr) => {
+        return arr.indexOf(item) === index
+      })
 
       switch (this.type) {
         case "Select":
