@@ -341,8 +341,8 @@ export default {
             font-size: 1.5em;
             margin-left: 5px;
           }
-          span {
-          }
+          // span {
+          // }
         }
         .installment {
           color: #9c9b9b;
