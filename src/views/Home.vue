@@ -120,7 +120,6 @@ export default {
     content() {
       let newData = [];
       let newAvailable = this.available.filter((item) => item.checkeds);
-      console.log(newAvailable)
       if (newAvailable.length != 0) {
          this.data.map((data) => {
            data.availableSizes.map((item) => {
