@@ -41,7 +41,7 @@ var S = {
       if (i !== -1) {
         S.UI.simulate(decodeURI(action).substring(i + 3));
       } else {
-        S.UI.simulate('|#countdown 3||祝|小公主|申怡菲|生日快乐|万事胜意|愿你|健康、快乐、充满活力|万事胜意|收获更多|幸福和成功|祝你|生日快乐！|#icon heart|#icon heart-empty|#icon heart');
+        S.UI.simulate('|#countdown 3||祝|王军一小公主|新年快乐|万事胜意|愿你|健康、快乐、充满活力|收获更多|幸福和成功|祝你|新年快乐！|爱你呦♥♥♥ |(♥ω♥ ) ~♪ |#icon heart|#icon heart-empty|#icon heart');
       }
 
       S.Drawing.loop(function () {
